@@ -10,7 +10,7 @@ class App extends Component {
   }
 
   async componentDidMount() {
-    fetch('http://api.population.io:80/1.0/countries')
+    fetch('//api.population.io:80/1.0/countries')
       .then(response => response.json())
       .then(c => {this.setState(c)})
   }
