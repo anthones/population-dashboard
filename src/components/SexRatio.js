@@ -37,7 +37,7 @@ const SexRatio = ({ countries }) => {
 
 	return (
 		<div className="col s12 m6 l6 line-graph">
-			<CanvasJSChart options={options} style={{ height: "470px" }} />
+			<CanvasJSChart options={options} />
 		</div>
 	);
 };

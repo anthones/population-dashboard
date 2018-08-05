@@ -43,6 +43,14 @@ npm build
 - [NPM](https://www.npmjs.com/) - Dependency Management
 - [Heroku](https://population-dashboard.herokuapp.com/) - Used for deployment
 
+## Future imporvements
+
+- Modularise the main axios GET method
+- Add unit tests for the App and Report Components
+- Fix the search filters for the main table
+- Improve the UX layout and style
+- Finish the Nav elements, maybe add a special view for all elements of the main dashboard
+
 ## Authors
 
 - **Antonie Dimovski** - [anthoness](https://github.com/anthones)
