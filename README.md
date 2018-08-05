@@ -31,7 +31,11 @@ npm start
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
+To create a build version with Webpack:
+
+```
+npm build
+```
 
 ## Built With
 
