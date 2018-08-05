@@ -45,7 +45,7 @@ npm build
 
 ## Authors
 
-- **Antonie Dimovski** - _Initial work_ - [anthoness](https://github.com/anthones)
+- **Antonie Dimovski** - [anthoness](https://github.com/anthones)
 
 ## License
 
@@ -54,4 +54,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 ## Acknowledgments
 
 - Huge thanks to [CORS-Anywhere](https://github.com/Rob--W/cors-anywhere/) for saving me enormous amount of time on making my own Express proxy
-- Thanks to the [Population API](api.population.io) for their reliable responses
+- Thanks to the [Population API](http://api.population.io) for their reliable responses
