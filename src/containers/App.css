@@ -4,9 +4,9 @@
 }*/
 
 .loader {
-  position: absolute;
-  top: 40%;
-  left: 47%;
+	position: absolute;
+	top: 40%;
+	left: 47%;
 }
 
 .line-graph {
@@ -14,7 +14,13 @@
 	height: 470px;
 }
 
-.canvasjs-chart-credit { display: none; }
-.canvasjs-chart-toolbar { display: none; }
+.canvasjs-chart-credit {
+	display: none;
+}
+.canvasjs-chart-toolbar {
+	display: none;
+}
 
-tr td {cursor: pointer;}
+tr td {
+	cursor: pointer;
+}
