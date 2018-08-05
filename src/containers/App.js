@@ -9,7 +9,7 @@ import Nav from "../components/Nav";
 import Loader from "../components/Loader";
 
 import "materialize-css/dist/css/materialize.min.css";
-import "./App.css";
+import "./App.sass";
 
 const arrayOfCountries = [];
 class App extends Component {
