@@ -1,8 +1,35 @@
+import _ from 'lodash';
 import React from 'react';
+const CanvasJSReact = require('../util/canvasjs.react');
+const CanvasJSChart = CanvasJSReact.CanvasJSChart;
 
-const SexRatio = () => {
+const SexRatio = ({countries}) => {
+
+	const femaleToMaleRatioArray = countries.map(({males, females, country}) => {
+		let ratio = females/males;
+		return {y: ratio, label: country}
+	});
+	const sortedRatio = _.orderBy(femaleToMaleRatioArray, ['y'],['desc']).slice(0, 10);
+
+		const options = {
+			animationEnabled: true,
+			exportEnabled: true,
+			theme: "light2",
+			title:{
+				text: "Top 10 countries by female to male ratio"
+			},
+			data: [{
+				type: "line",
+				indexLabelFontColor: "#5A5757",
+				indexLabelPlacement: "outside",
+				dataPoints: sortedRatio
+			}]
+		}
+
 		return(
-			<div>hello</div>
+      <div className="col s12 m6 l5 line-graph">
+        <CanvasJSChart options = {options} />
+      </div>
 		)
 }
 

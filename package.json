@@ -3,10 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "axios": "^0.18.0",
+    "lodash": "^4.17.10",
+    "materialize-css": "^1.0.0-rc.2",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-scripts": "1.1.4",
-    "react-sortable": "^2.0.0"
+    "react-table": "^6.8.6"
   },
   "scripts": {
     "start": "react-scripts start",
