@@ -1,6 +1,7 @@
 # Populus - The Population Dashboard
 
 Populus is an admin panel like dashboard that displays useful information about the population of the countries.
+
 [Population-dashboard](https://population-dashboard.herokuapp.com/) - Live preview on heroku instance
 
 ## Getting Started
