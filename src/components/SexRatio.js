@@ -22,9 +22,12 @@ const SexRatio = ({ countries }) => {
 		title: {
 			text: "Top 10 countries by female to male ratio"
 		},
+		axisY: {
+			interval: 0.05
+		},
 		data: [
 			{
-				type: "line",
+				type: "column",
 				indexLabelFontColor: "#5A5757",
 				indexLabelPlacement: "outside",
 				dataPoints
@@ -33,8 +36,8 @@ const SexRatio = ({ countries }) => {
 	};
 
 	return (
-		<div className="col s12 m6 l5 line-graph">
-			<CanvasJSChart options={options} />
+		<div className="col s12 m6 l6 line-graph">
+			<CanvasJSChart options={options} style={{ height: "470px" }} />
 		</div>
 	);
 };

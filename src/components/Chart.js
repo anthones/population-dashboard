@@ -29,7 +29,7 @@ const Chart = ({ countries }) => {
 	};
 
 	return (
-		<div className="col s12 m6 l7">
+		<div className="col s12 m6 l6">
 			<div className="card-panel">
 				<CanvasJSChart
 					options={options}
